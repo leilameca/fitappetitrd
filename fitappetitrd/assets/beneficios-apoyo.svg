@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 520">
+  <rect width="700" height="520" fill="#f2eadf"/>
+  <rect x="70" y="70" width="560" height="380" rx="32" fill="#fffaf3"/>
+  <circle cx="220" cy="220" r="70" fill="#9aad94"/>
+  <circle cx="360" cy="200" r="54" fill="#e8c8b7"/>
+  <circle cx="450" cy="270" r="80" fill="#c9876b"/>
+  <text x="120" y="400" fill="#365944" font-family="Georgia, serif" font-size="34">Apoyo visual beneficios</text>
+  <text x="120" y="438" fill="#5d6a60" font-family="Arial, sans-serif" font-size="22">Ingredientes, porciones o escritorio con comida.</text>
+</svg>
