@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f4ede3"/>
+  <rect x="80" y="80" width="640" height="440" rx="34" fill="#fffaf4"/>
+  <rect x="160" y="140" width="160" height="280" rx="30" fill="#d8dfcf"/>
+  <rect x="360" y="160" width="220" height="110" rx="24" fill="#e6bca3"/>
+  <rect x="360" y="300" width="180" height="120" rx="24" fill="#aab99f"/>
+  <text x="140" y="480" fill="#365944" font-family="Georgia, serif" font-size="34">Lifestyle proceso</text>
+  <text x="140" y="518" fill="#5d6a60" font-family="Arial, sans-serif" font-size="22">Celular, WhatsApp, cocina o entrega en casa.</text>
+</svg>

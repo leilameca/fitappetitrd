@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800">
+  <rect width="1000" height="800" fill="#efe6db"/>
+  <rect x="120" y="120" width="760" height="560" rx="40" fill="#fff9f2"/>
+  <rect x="180" y="250" width="240" height="180" rx="28" fill="#d8dfcf"/>
+  <rect x="450" y="220" width="200" height="220" rx="100" fill="#e8c1ac"/>
+  <rect x="660" y="280" width="110" height="90" rx="18" fill="#9aad94"/>
+  <text x="180" y="545" fill="#365944" font-family="Georgia, serif" font-size="42">Imagen delivery</text>
+  <text x="180" y="592" fill="#5d6a60" font-family="Arial, sans-serif" font-size="26">Entrega limpia, fácil, rápida y confiable.</text>
+</svg>

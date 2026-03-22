@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700">
+  <rect width="900" height="700" fill="#efe6db"/>
+  <rect x="100" y="100" width="700" height="500" rx="36" fill="#fff9f2"/>
+  <rect x="180" y="180" width="260" height="180" rx="24" fill="#d6dfc8"/>
+  <rect x="470" y="180" width="170" height="170" rx="85" fill="#e2b497"/>
+  <rect x="180" y="390" width="460" height="90" rx="22" fill="#365944" opacity="0.18"/>
+  <text x="180" y="540" fill="#365944" font-family="Georgia, serif" font-size="42">Detalle delivery</text>
+  <text x="180" y="585" fill="#5d6a60" font-family="Arial, sans-serif" font-size="25">Packaging limpio, comida fresca, look premium.</text>
+</svg>
