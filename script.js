@@ -1,7 +1,6 @@
 document.body.classList.add("js-ready");
 
-// Replace this placeholder with the brand's real WhatsApp number in international format.
-const WHATSAPP_NUMBER = "18090000000";
+const WHATSAPP_NUMBER = "18294409105";
 const WHATSAPP_MESSAGE =
   "Hola, vengo de la web de Fit Appétit RD y quiero información sobre el menú semanal o un plan personalizado.";
 
