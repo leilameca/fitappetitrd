@@ -155,6 +155,10 @@ select {
   color: var(--muted);
 }
 
+.section-heading h2 {
+  text-wrap: balance;
+}
+
 .eyebrow {
   display: inline-flex;
   align-items: center;
@@ -1089,6 +1093,19 @@ select {
 .menu-layout {
   align-items: start;
   gap: 2rem;
+}
+
+#menu .section-heading {
+  max-width: 700px;
+}
+
+#menu .section-heading h2 {
+  max-width: 11ch;
+  font-size: clamp(2.4rem, 4.8vw, 3.9rem);
+}
+
+#menu .section-heading p {
+  max-width: 32rem;
 }
 
 .menu-board,
