@@ -1618,13 +1618,13 @@ select {
   margin-top: 2rem;
   padding: 1.6rem 0 2rem;
   background:
-    radial-gradient(circle at top left, rgba(242, 140, 163, 0.12), transparent 20%),
-    radial-gradient(circle at right 18% top 12%, rgba(166, 200, 14, 0.14), transparent 18%),
-    linear-gradient(180deg, rgba(255, 251, 247, 0.99), rgba(255, 244, 236, 0.98));
+    radial-gradient(circle at top left, rgba(242, 140, 163, 0.14), transparent 20%),
+    radial-gradient(circle at right 18% top 12%, rgba(166, 200, 14, 0.16), transparent 18%),
+    linear-gradient(180deg, rgba(250, 244, 239, 0.99), rgba(244, 235, 227, 0.98));
   color: var(--text);
   border-top-left-radius: 42px;
   border-top-right-radius: 42px;
-  border-top: 1px solid rgba(95, 125, 26, 0.08);
+  border-top: 1px solid rgba(95, 125, 26, 0.12);
 }
 
 .footer-cta {
@@ -1752,16 +1752,24 @@ select {
   display: grid;
   gap: 1rem;
   margin-top: 1.6rem;
-  padding: 1.5rem 0 1.2rem;
-  border-top: 1px solid rgba(95, 125, 26, 0.08);
+  padding: 1.7rem 0 1.2rem;
+  border-top: 1px solid rgba(95, 125, 26, 0.12);
   align-items: center;
 }
 
 .footer-column {
-  display: flex;
-  align-items: center;
+  display: grid;
+  align-content: start;
   gap: 0.8rem;
-  align-content: center;
+  padding: 0.35rem 0;
+}
+
+.footer-column h3 {
+  margin: 0;
+  font-size: 0.82rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #6f7c52;
 }
 
 .footer-column strong {
@@ -1781,7 +1789,7 @@ select {
 .footer-wrap span,
 .footer-wrap a {
   display: block;
-  color: #536239;
+  color: #45542a;
   margin-top: 0;
   transition: color 180ms ease, transform 180ms ease;
   font-size: 0.98rem;
@@ -1798,19 +1806,20 @@ select {
 }
 
 .footer-column--brand span {
-  max-width: 18rem;
+  max-width: 19rem;
   line-height: 1.55;
+  color: #5d6a3f;
 }
 
 .footer-bottom {
   padding-top: 1.2rem;
-  border-top: 1px solid rgba(95, 125, 26, 0.08);
+  border-top: 1px solid rgba(95, 125, 26, 0.12);
 }
 
 .footer-bottom p {
   margin: 0;
   text-align: center;
-  color: #8b9573;
+  color: #6f7c52;
   font-size: 0.95rem;
 }
 
@@ -1960,7 +1969,7 @@ body.js-ready .reveal.is-visible {
   }
 
   .footer-wrap {
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1.25fr 1fr 0.9fr 0.9fr;
     justify-content: space-between;
   }
 }
@@ -2386,8 +2395,7 @@ body.js-ready .reveal.is-visible {
   }
 
   .footer-column {
-    justify-content: center;
-    flex-direction: column;
+    justify-items: center;
   }
 
   .footer-column--brand p {
